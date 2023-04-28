@@ -1,12 +1,16 @@
 #!/usr/bin/python3
-"""BaseGeometry module.
-Contains a class BaseGeometry, and some methods.
+"""
+===================================
+module with class BaseGeometry
+===================================
 """
 
 
-class BaseGeometry():
-    """Defines the BaseGeometry class."""
+class BaseGeometry:
+    """BaseGeometry class"""
 
+    @classmethod
     def area(self):
-        """Raises an Exception."""
+        """method for calculated area"""
+
         raise Exception("area() is not implemented")
